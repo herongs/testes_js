@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.linhas{
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#numero{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 70px;
+    height: 20px;
+}
+button{
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+#resposta{
+    font-weight: bolder;
+    padding: 5px;
+    font-size: 25px;
+}
+#quantidade{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 70px;
+    font-size: 20px;
+}
+.hidden{
+    display: none;
+}
+.calvo{
+    background-color: blue;
+    padding: 20px;
+}
+#botaoNao{
+    font-size: 10px;
+}
+#botaoSIM{
+    display: none;
+    font-size: 40px;
+}
