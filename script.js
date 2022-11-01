@@ -45,6 +45,23 @@ function gerarNumero(){
     }
 }
 
+function soma(){
+
+    let valorUm = parseInt(document.getElementById('valorUm').value);
+    let valorDois = parseInt(document.getElementById('valorDois').value);
+    let respSoma = document.getElementById('respSoma');
+
+    let cont = valorUm + valorDois;
+
+    fraseSoma.innerHTML = 'Soma:';
+    respSoma.innerHTML = cont;
+}
+
+
+
+
+
+
 function videoCalvo(){
     document.getElementById('video').style.display = 'block';
 }
